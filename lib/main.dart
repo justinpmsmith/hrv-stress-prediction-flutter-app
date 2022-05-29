@@ -1,0 +1,90 @@
+import 'package:flutter/material.dart';
+import 'package:polar/polar.dart';
+import 'package:http/http.dart' as http;
+import 'dart:convert';
+
+void main() {
+  runApp(const MyApp());
+}
+
+/// Example app
+class MyApp extends StatefulWidget {
+  const MyApp({Key? key}) : super(key: key);
+
+  @override
+  _MyAppState createState() => _MyAppState();
+}
+
+class _MyAppState extends State<MyApp> {
+  static const identifier = '45308B23';
+
+  final polar = Polar();
+  final logs = ['Service started'];
+
+  @override
+  void initState() {
+    super.initState();
+
+    //polar.heartRateStream.listen((e) => log('Heart rate: ${e.data.hr}'));
+    polar.heartRateStream
+        .listen((e) => post('${e.data.rrs}')); //'RR: ${e.data.rrs}')
+    //polar.batteryLevelStream.listen((e) => log('Battery: ${e.level}'));
+    polar.streamingFeaturesReadyStream.listen((e) {
+      if (e.features.contains(DeviceStreamingFeature.ecg)) {
+        polar.startEcgStreaming(e.identifier);
+        //.listen((e) => log('ECG data: ${e.samples}'));
+      }
+    });
+    polar.deviceConnectingStream.listen((_) => log('Device connecting'));
+    polar.deviceConnectedStream.listen((_) => log('Device connected'));
+    polar.deviceDisconnectedStream.listen((_) => log('Device disconnected'));
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(
+          title: const Text('Polar example app'),
+          actions: [
+            IconButton(
+              icon: const Icon(Icons.stop),
+              onPressed: () {
+                log('Disconnecting from device: $identifier');
+                polar.disconnectFromDevice(identifier);
+              },
+            ),
+            IconButton(
+              icon: const Icon(Icons.play_arrow),
+              onPressed: () {
+                log('Connecting to device: $identifier');
+                polar.connectToDevice(identifier);
+              },
+            ),
+          ],
+        ),
+        body: ListView(
+          padding: const EdgeInsets.all(10),
+          shrinkWrap: true,
+          children: logs.reversed.map((e) => Text(e)).toList(),
+        ),
+      ),
+    );
+  }
+
+  void post(String pos) async {
+    final url = 'http://1a58-34-121-14-122.ngrok.io/rrs';
+
+    final response =
+        await http.post(Uri.parse(url), body: json.encode({'rrs': pos}));
+    log(pos);
+  }
+
+  void log(String log) {
+    // ignore: avoid_print
+    print(log);
+    setState(() {
+      logs.add(log);
+    });
+  }
+}

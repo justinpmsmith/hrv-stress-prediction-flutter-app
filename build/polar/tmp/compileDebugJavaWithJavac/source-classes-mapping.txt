@@ -1,0 +1,2 @@
+dev/rexios/polar/BuildConfig.java
+ dev.rexios.polar.BuildConfig

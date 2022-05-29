@@ -1,0 +1,48 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!-- * Commented permissions must be added by the end developer -->
+3<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+4    package="dev.rexios.polar" >
+5    <!--
+6 Polar SDK needs the fine location permission to get results for Bluetooth scan. Request
+7    fine location permission on devices with API 30 (Android Q).
+8    -->
+9    <!-- <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" android:maxSdkVersion="30" /> -->
+10    <!--
+11 The coarse location permission is needed, if fine location permission is requested. Request
+12     coarse location permission on devices with API 30 (Android Q).
+13    -->
+14    <!-- <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" android:maxSdkVersion="30" /> -->
+15    <uses-sdk android:minSdkVersion="21" />
+15-->/home/justin/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/polar-1.15.0/android/src/main/AndroidManifest.xml
+16    <!-- Polar SDK needs Bluetooth scan permission to search for BLE devices. -->
+17    <!-- <uses-permission android:name="android.permission.BLUETOOTH_SCAN" android:usesPermissionFlags="neverForLocation" /> -->
+18
+19
+20    <!-- Polar SDK needs Bluetooth connect permission to connect for found BLE devices. -->
+21    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+21-->/home/justin/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/polar-1.15.0/android/src/main/AndroidManifest.xml:7:3-74
+21-->/home/justin/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/polar-1.15.0/android/src/main/AndroidManifest.xml:7:20-71
+22
+23    <!--
+24     Allows Polar SDK to connect to paired bluetooth devices. Legacy Bluetooth permission,
+25     which is needed on devices with API 30 (Android Q) or older.
+26    -->
+27    <uses-permission
+27-->/home/justin/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/polar-1.15.0/android/src/main/AndroidManifest.xml:11:3-93
+28        android:name="android.permission.BLUETOOTH"
+28-->/home/justin/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/polar-1.15.0/android/src/main/AndroidManifest.xml:11:20-63
+29        android:maxSdkVersion="30" />
+29-->/home/justin/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/polar-1.15.0/android/src/main/AndroidManifest.xml:11:64-90
+30
+31    <!--
+32     Allows Polar SDK to discover and pair bluetooth devices. Legacy Bluetooth permission,
+33     which is needed on devices with API 30 (Android Q) or older.
+34    -->
+35    <uses-permission
+35-->/home/justin/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/polar-1.15.0/android/src/main/AndroidManifest.xml:15:3-99
+36        android:name="android.permission.BLUETOOTH_ADMIN"
+36-->/home/justin/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/polar-1.15.0/android/src/main/AndroidManifest.xml:15:20-69
+37        android:maxSdkVersion="30" />
+37-->/home/justin/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/polar-1.15.0/android/src/main/AndroidManifest.xml:15:70-96
+38
+39</manifest>

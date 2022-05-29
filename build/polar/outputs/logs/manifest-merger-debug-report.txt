@@ -1,0 +1,35 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/justin/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/polar-1.15.0/android/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /home/justin/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/polar-1.15.0/android/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /home/justin/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/polar-1.15.0/android/src/main/AndroidManifest.xml:2:1-24:12
+	package
+		ADDED from /home/justin/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/polar-1.15.0/android/src/main/AndroidManifest.xml:2:70-96
+		INJECTED from /home/justin/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/polar-1.15.0/android/src/main/AndroidManifest.xml
+		INJECTED from /home/justin/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/polar-1.15.0/android/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/justin/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/polar-1.15.0/android/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.BLUETOOTH_CONNECT
+ADDED from /home/justin/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/polar-1.15.0/android/src/main/AndroidManifest.xml:7:3-74
+	android:name
+		ADDED from /home/justin/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/polar-1.15.0/android/src/main/AndroidManifest.xml:7:20-71
+uses-permission#android.permission.BLUETOOTH
+ADDED from /home/justin/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/polar-1.15.0/android/src/main/AndroidManifest.xml:11:3-93
+	android:maxSdkVersion
+		ADDED from /home/justin/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/polar-1.15.0/android/src/main/AndroidManifest.xml:11:64-90
+	android:name
+		ADDED from /home/justin/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/polar-1.15.0/android/src/main/AndroidManifest.xml:11:20-63
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from /home/justin/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/polar-1.15.0/android/src/main/AndroidManifest.xml:15:3-99
+	android:maxSdkVersion
+		ADDED from /home/justin/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/polar-1.15.0/android/src/main/AndroidManifest.xml:15:70-96
+	android:name
+		ADDED from /home/justin/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/polar-1.15.0/android/src/main/AndroidManifest.xml:15:20-69
+uses-sdk
+INJECTED from /home/justin/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/polar-1.15.0/android/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/justin/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/polar-1.15.0/android/src/main/AndroidManifest.xml
+INJECTED from /home/justin/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/polar-1.15.0/android/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/justin/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/polar-1.15.0/android/src/main/AndroidManifest.xml
+		ADDED from /home/justin/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/polar-1.15.0/android/src/main/AndroidManifest.xml
+		INJECTED from /home/justin/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/polar-1.15.0/android/src/main/AndroidManifest.xml
