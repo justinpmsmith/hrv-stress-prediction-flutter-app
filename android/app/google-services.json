@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "771995956847",
+    "project_id": "stress-prediction-5a55a",
+    "storage_bucket": "stress-prediction-5a55a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:771995956847:android:f3722923b4ed10bbff3f9a",
+        "android_client_info": {
+          "package_name": "com.example.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "771995956847-56l3v6fgfjppfcahsn5abpta1d7a6q77.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0-1aVA_w4pm58bm2sAb0Yah8sJWmAbGo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "771995956847-56l3v6fgfjppfcahsn5abpta1d7a6q77.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
