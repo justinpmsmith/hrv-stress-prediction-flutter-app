@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/justin/stress_prediction/APP/app/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/home/justin/git_repo/flutter-app/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
                 {
                     "source": "/home/justin/.gradle/caches/transforms-2/files-2.1/b9a960218f5163997c0fdfa3d3078c0e/core-1.7.0/res/values/values.xml",
@@ -59,7 +59,7 @@
                     }
                 },
                 {
-                    "source": "/home/justin/stress_prediction/APP/app/android/app/src/main/res/values/styles.xml",
+                    "source": "/home/justin/git_repo/flutter-app/android/app/src/main/res/values/styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
