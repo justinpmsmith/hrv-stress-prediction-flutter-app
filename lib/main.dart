@@ -1,10 +1,18 @@
+// ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables
+
 import 'package:flutter/material.dart';
 import 'package:polar/polar.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
+import 'package:intl/intl.dart';
+import 'graph.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'package:firebase_database/firebase_database.dart';
 
-void main() {
-  runApp(const MyApp());
+Future main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
+  runApp(MaterialApp(home: MyApp()));
 }
 
 /// Example app
@@ -20,6 +28,12 @@ class _MyAppState extends State<MyApp> {
 
   final polar = Polar();
   final logs = ['Service started'];
+  var connected = false;
+  var date = '';
+  DateFormat dateFormat = DateFormat("yyyy-MM-dd");
+  int init = 0;
+
+  FirebaseDatabase database = FirebaseDatabase.instance;
 
   @override
   void initState() {
@@ -45,7 +59,7 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('Polar example app'),
+          title: const Text('Stress Tracker'),
           actions: [
             IconButton(
               icon: const Icon(Icons.stop),
@@ -63,21 +77,59 @@ class _MyAppState extends State<MyApp> {
             ),
           ],
         ),
-        body: ListView(
-          padding: const EdgeInsets.all(10),
-          shrinkWrap: true,
-          children: logs.reversed.map((e) => Text(e)).toList(),
+        body: Column(
+          mainAxisAlignment: MainAxisAlignment.start,
+          children: <Widget>[
+            Container(
+              padding: EdgeInsets.all(15.0),
+              width: double.infinity,
+              height: 400,
+              child: Card(
+                child: date == '' ? Text("No date chosen") : Graph(date),
+                elevation: 5,
+              ),
+            ),
+            Row(mainAxisAlignment: MainAxisAlignment.center, children: <Widget>[
+              Container(
+                  //padding: const EdgeInsets.all(20.0),
+                  child: RaisedButton(
+                child: Text('Pick Date'),
+                onPressed: presentDatePicker,
+              )),
+              Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Text(date == '' ? "No date chosen" : date),
+              )
+            ])
+          ],
         ),
       ),
     );
   }
 
   void post(String pos) async {
-    final url = 'http://1a58-34-121-14-122.ngrok.io/rrs';
+    const url = 'http://1a58-34-121-14-122.ngrok.io/rrs';
 
     final response =
         await http.post(Uri.parse(url), body: json.encode({'rrs': pos}));
     log(pos);
+  }
+
+  void presentDatePicker() {
+    print('test');
+    showDatePicker(
+            context: context,
+            initialDate: DateTime.now(),
+            firstDate: DateTime(2022),
+            lastDate: DateTime.now())
+        .then((pickedDate) {
+      if (pickedDate != null) {
+        print('hello');
+        setState(() {
+          date = dateFormat.format(pickedDate);
+        });
+      }
+    });
   }
 
   void log(String log) {

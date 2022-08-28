@@ -176,6 +176,12 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "intl",
+      "rootUri": "file:///home/justin/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/intl-0.17.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "js",
       "rootUri": "file:///home/justin/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/js-0.6.3",
       "packageUri": "lib/",
@@ -326,7 +332,7 @@
       "languageVersion": "2.16"
     }
   ],
-  "generated": "2022-08-15T11:33:08.735014Z",
+  "generated": "2022-08-28T19:52:26.120948Z",
   "generator": "pub",
   "generatorVersion": "2.16.2"
 }
