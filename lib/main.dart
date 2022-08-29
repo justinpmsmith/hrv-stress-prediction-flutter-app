@@ -116,7 +116,6 @@ class _MyAppState extends State<MyApp> {
   }
 
   void presentDatePicker() {
-    print('test');
     showDatePicker(
             context: context,
             initialDate: DateTime.now(),
@@ -124,7 +123,6 @@ class _MyAppState extends State<MyApp> {
             lastDate: DateTime.now())
         .then((pickedDate) {
       if (pickedDate != null) {
-        print('hello');
         setState(() {
           date = dateFormat.format(pickedDate);
         });
