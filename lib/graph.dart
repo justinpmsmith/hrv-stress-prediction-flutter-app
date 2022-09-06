@@ -6,11 +6,13 @@ import 'package:intl/intl.dart';
 
 class Graph extends StatelessWidget {
   String date;
-
   List<Map> mapList2 = [];
   // List<FlSpot> _values = const [];
 
   Graph(this.date, {Key? key}) : super(key: key);
+
+  double _minX = 0;
+  double _maxX = 0;
 
   // ignore: non_constant_identifier_names
   List<FlSpot> GetValues() => mapList2.map((point) {
@@ -18,6 +20,7 @@ class Graph extends StatelessWidget {
         double time =
             DateTime.parse(dateTime).millisecondsSinceEpoch.toDouble();
         double prediction = point['prediction'].toDouble();
+
         return FlSpot(time, prediction);
       }).toList();
 
@@ -55,10 +58,15 @@ class Graph extends StatelessWidget {
           mapList2.add(temp2);
         });
       });
-      //print(mapList2);
+
       mapList2.sort((a, b) => DateTime.parse(date + ' ' + a['time'])
           .compareTo(DateTime.parse(date + ' ' + b['time'])));
-      // print(mapList2);
+
+      String dateTime = date + ' ' + mapList2[0]['time'];
+      _minX = DateTime.parse(dateTime).millisecondsSinceEpoch.toDouble();
+
+      dateTime = date + ' ' + mapList2[mapList2.length - 1]['time'];
+      _maxX = DateTime.parse(dateTime).millisecondsSinceEpoch.toDouble();
       return 1;
     } else {
       print('no data available');
@@ -67,11 +75,17 @@ class Graph extends StatelessWidget {
   }
 
   SideTitles get _bottomTitles => SideTitles(
+        interval: (_maxX - _minX) / 6,
         showTitles: true,
         getTitlesWidget: (value, meta) {
-          final DateTime date =
+          final DateTime datetime =
               DateTime.fromMillisecondsSinceEpoch(value.toInt());
-          return Text(DateFormat.Hm().format(date));
+
+          if (value.toDouble() < _maxX) {
+            return Text(DateFormat.Hm().format(datetime));
+          } else {
+            return Text('');
+          }
         },
       );
 
