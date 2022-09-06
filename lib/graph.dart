@@ -12,6 +12,21 @@ class Graph extends StatelessWidget {
 
   Graph(this.date, {Key? key}) : super(key: key);
 
+  // ignore: non_constant_identifier_names
+  List<FlSpot> GetValues() => mapList2.map((point) {
+        String dateTime = date + ' ' + point['time'];
+        double time =
+            DateTime.parse(dateTime).millisecondsSinceEpoch.toDouble();
+        double prediction = point['prediction'].toDouble();
+        return FlSpot(time, prediction);
+      }).toList();
+
+  LineChartBarData _lineBarData() {
+    return LineChartBarData(
+      spots: GetValues(),
+    );
+  }
+
   Future<int> fetchData() async {
     DatabaseReference ref = FirebaseDatabase.instance.ref("date/$date");
     DatabaseEvent event = await ref.once();
@@ -51,6 +66,27 @@ class Graph extends StatelessWidget {
     }
   }
 
+  SideTitles get _bottomTitles => SideTitles(
+        showTitles: true,
+        getTitlesWidget: (value, meta) {
+          final DateTime date =
+              DateTime.fromMillisecondsSinceEpoch(value.toInt());
+          return Text(DateFormat.Hm().format(date));
+        },
+      );
+
+  Widget chart(List<Map> mapList2) {
+    return LineChart(LineChartData(
+        titlesData: FlTitlesData(
+            leftTitles: AxisTitles(sideTitles: SideTitles(showTitles: false)),
+            topTitles: AxisTitles(sideTitles: SideTitles(showTitles: false)),
+            rightTitles: AxisTitles(sideTitles: SideTitles(showTitles: false)),
+            bottomTitles: AxisTitles(sideTitles: _bottomTitles)),
+        lineBarsData: [
+          LineChartBarData(spots: GetValues()),
+        ]));
+  }
+
   @override
   Widget build(BuildContext context) {
     // var ml = fetchData();
@@ -78,19 +114,4 @@ class Graph extends StatelessWidget {
       },
     );
   }
-}
-
-Widget chart(List<Map> mapList2) {
-  return LineChart(
-    LineChartData(titlesData: FlTitlesData(), lineBarsData: [
-      LineChartBarData(
-          spots: mapList2.map((point) {
-        print('here!!!!!!!!!!!!!!!!!');
-        print(point);
-        String time = point['time'].replaceAll(':', '.');
-        double prediction = point['prediction'].toDouble();
-        return FlSpot(double.parse(time), prediction);
-      }).toList()),
-    ]),
-  );
 }

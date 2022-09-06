@@ -85,8 +85,9 @@ class _MyAppState extends State<MyApp> {
               width: double.infinity,
               height: 400,
               child: Card(
-                child: date == '' ? Text("No date chosen") : Graph(date),
-                elevation: 5,
+                child: date == ''
+                    ? Card(child: Text("No date chosen"), elevation: 5)
+                    : Graph(date),
               ),
             ),
             Row(mainAxisAlignment: MainAxisAlignment.center, children: <Widget>[
