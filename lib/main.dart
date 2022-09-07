@@ -30,6 +30,7 @@ class _MyAppState extends State<MyApp> {
   final logs = ['Service started'];
   var connected = false;
   var connecting = false;
+  var message = 'Disconnected from Sensor';
   var date = '';
   DateFormat dateFormat = DateFormat("yyyy-MM-dd");
   int init = 0;
@@ -87,7 +88,20 @@ class _MyAppState extends State<MyApp> {
                 padding: const EdgeInsets.all(8.0),
                 child: Text(date == '' ? "No date chosen" : date),
               )
-            ])
+            ]),
+            Padding(
+              padding: const EdgeInsets.only(top: 40.0),
+              child: Container(
+                alignment: Alignment.center,
+                padding: EdgeInsets.all(10.0),
+                color: Colors.blue,
+                width: double.infinity,
+                child: Text(
+                  message,
+                  style: TextStyle(color: Colors.white),
+                ),
+              ),
+            )
           ],
         ),
       ),
@@ -121,6 +135,7 @@ class _MyAppState extends State<MyApp> {
     setState(() {
       connected = false;
       connecting = true;
+      message = 'Connecting to Sensor';
     });
   }
 
@@ -128,6 +143,7 @@ class _MyAppState extends State<MyApp> {
     setState(() {
       connecting = false;
       connected = true;
+      message = 'connected';
     });
   }
 
@@ -135,6 +151,7 @@ class _MyAppState extends State<MyApp> {
     setState(() {
       connecting = false;
       connected = false;
+      message = 'Disconnected from Sensor';
     });
   }
 
