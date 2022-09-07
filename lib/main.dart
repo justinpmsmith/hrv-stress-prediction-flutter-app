@@ -29,6 +29,7 @@ class _MyAppState extends State<MyApp> {
   final polar = Polar();
   final logs = ['Service started'];
   var connected = false;
+  var connecting = false;
   var date = '';
   DateFormat dateFormat = DateFormat("yyyy-MM-dd");
   int init = 0;
@@ -49,9 +50,9 @@ class _MyAppState extends State<MyApp> {
         //.listen((e) => log('ECG data: ${e.samples}'));
       }
     });
-    polar.deviceConnectingStream.listen((_) => log('Device connecting'));
-    polar.deviceConnectedStream.listen((_) => log('Device connected'));
-    polar.deviceDisconnectedStream.listen((_) => log('Device disconnected'));
+    polar.deviceConnectingStream.listen((_) => Connecting());
+    polar.deviceConnectedStream.listen((_) => Connected());
+    polar.deviceDisconnectedStream.listen((_) => Disconnected());
   }
 
   @override
@@ -60,22 +61,7 @@ class _MyAppState extends State<MyApp> {
       home: Scaffold(
         appBar: AppBar(
           title: const Text('Stress Tracker'),
-          actions: [
-            IconButton(
-              icon: const Icon(Icons.stop),
-              onPressed: () {
-                log('Disconnecting from device: $identifier');
-                polar.disconnectFromDevice(identifier);
-              },
-            ),
-            IconButton(
-              icon: const Icon(Icons.play_arrow),
-              onPressed: () {
-                log('Connecting to device: $identifier');
-                polar.connectToDevice(identifier);
-              },
-            ),
-          ],
+          actions: [action()],
         ),
         body: Column(
           mainAxisAlignment: MainAxisAlignment.start,
@@ -113,7 +99,7 @@ class _MyAppState extends State<MyApp> {
 
     final response =
         await http.post(Uri.parse(url), body: json.encode({'rrs': pos}));
-    log(pos);
+    print(pos);
   }
 
   void presentDatePicker() {
@@ -129,6 +115,47 @@ class _MyAppState extends State<MyApp> {
         });
       }
     });
+  }
+
+  void Connecting() {
+    setState(() {
+      connected = false;
+      connecting = true;
+    });
+  }
+
+  void Connected() {
+    setState(() {
+      connecting = false;
+      connected = true;
+    });
+  }
+
+  void Disconnected() {
+    setState(() {
+      connecting = false;
+      connected = false;
+    });
+  }
+
+  IconButton action() {
+    if (connected) {
+      return IconButton(
+        icon: const Icon(Icons.stop),
+        onPressed: () {
+          log('Disconnecting from device: $identifier');
+          polar.disconnectFromDevice(identifier);
+        },
+      );
+    } else {
+      return IconButton(
+        icon: const Icon(Icons.play_arrow),
+        onPressed: () {
+          log('Connecting to device: $identifier');
+          polar.connectToDevice(identifier);
+        },
+      );
+    }
   }
 
   void log(String log) {
