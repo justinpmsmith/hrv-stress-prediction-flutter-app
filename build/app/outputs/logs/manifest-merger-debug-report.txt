@@ -1,10 +1,10 @@
 -- Merging decision tree log ---
 application
-INJECTED from /home/justin/git_repo/flutter-app/android/app/src/main/AndroidManifest.xml:6:4-36:19
-MERGED from [:firebase_database] /home/justin/git_repo/flutter-app/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
-MERGED from [:firebase_database] /home/justin/git_repo/flutter-app/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
-MERGED from [:firebase_core] /home/justin/git_repo/flutter-app/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
-MERGED from [:firebase_core] /home/justin/git_repo/flutter-app/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+INJECTED from /home/justin/git_repo/Flutter-stress-prediction/flutter-app/android/app/src/main/AndroidManifest.xml:6:4-36:19
+MERGED from [:firebase_database] /home/justin/git_repo/Flutter-stress-prediction/flutter-app/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_database] /home/justin/git_repo/Flutter-stress-prediction/flutter-app/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] /home/justin/git_repo/Flutter-stress-prediction/flutter-app/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] /home/justin/git_repo/Flutter-stress-prediction/flutter-app/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
 MERGED from [androidx.window:window:1.0.0-beta04] /home/justin/.gradle/caches/transforms-2/files-2.1/5d93ab2f2812dcc02a149cabf48676c0/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
 MERGED from [androidx.window:window:1.0.0-beta04] /home/justin/.gradle/caches/transforms-2/files-2.1/5d93ab2f2812dcc02a149cabf48676c0/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
 MERGED from [com.google.firebase:firebase-database:20.0.5] /home/justin/.gradle/caches/transforms-2/files-2.1/fea504071b2f0b6e66a42a8d898350f2/jetified-firebase-database-20.0.5/AndroidManifest.xml:28:5-36:19
@@ -28,19 +28,19 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/justi
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.7.0] /home/justin/.gradle/caches/transforms-2/files-2.1/c3cfa0d6be01160dbd24e56810c63e6d/core-1.7.0/AndroidManifest.xml:24:18-86
 	android:name
-		INJECTED from /home/justin/git_repo/flutter-app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/justin/git_repo/Flutter-stress-prediction/flutter-app/android/app/src/main/AndroidManifest.xml
 manifest
-ADDED from /home/justin/git_repo/flutter-app/android/app/src/main/AndroidManifest.xml:1:1-37:12
-INJECTED from /home/justin/git_repo/flutter-app/android/app/src/main/AndroidManifest.xml:1:1-37:12
-INJECTED from /home/justin/git_repo/flutter-app/android/app/src/main/AndroidManifest.xml:1:1-37:12
-INJECTED from /home/justin/git_repo/flutter-app/android/app/src/main/AndroidManifest.xml:1:1-37:12
-MERGED from /home/justin/git_repo/flutter-app/android/app/src/main/AndroidManifest.xml:1:1-37:12
-MERGED from [:polar] /home/justin/git_repo/flutter-app/build/polar/intermediates/library_manifest/debug/AndroidManifest.xml:3:1-39:12
-MERGED from [:firebase_database] /home/justin/git_repo/flutter-app/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
-MERGED from [:firebase_core] /home/justin/git_repo/flutter-app/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
-MERGED from [:permission_handler_android] /home/justin/git_repo/flutter-app/build/permission_handler_android/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
-MERGED from [:flutter_plugin_android_lifecycle] /home/justin/git_repo/flutter-app/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
-MERGED from [:device_info_plus] /home/justin/git_repo/flutter-app/build/device_info_plus/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+ADDED from /home/justin/git_repo/Flutter-stress-prediction/flutter-app/android/app/src/main/AndroidManifest.xml:1:1-37:12
+INJECTED from /home/justin/git_repo/Flutter-stress-prediction/flutter-app/android/app/src/main/AndroidManifest.xml:1:1-37:12
+INJECTED from /home/justin/git_repo/Flutter-stress-prediction/flutter-app/android/app/src/main/AndroidManifest.xml:1:1-37:12
+INJECTED from /home/justin/git_repo/Flutter-stress-prediction/flutter-app/android/app/src/main/AndroidManifest.xml:1:1-37:12
+MERGED from /home/justin/git_repo/Flutter-stress-prediction/flutter-app/android/app/src/main/AndroidManifest.xml:1:1-37:12
+MERGED from [:polar] /home/justin/git_repo/Flutter-stress-prediction/flutter-app/build/polar/intermediates/library_manifest/debug/AndroidManifest.xml:3:1-39:12
+MERGED from [:firebase_database] /home/justin/git_repo/Flutter-stress-prediction/flutter-app/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:firebase_core] /home/justin/git_repo/Flutter-stress-prediction/flutter-app/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:permission_handler_android] /home/justin/git_repo/Flutter-stress-prediction/flutter-app/build/permission_handler_android/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:flutter_plugin_android_lifecycle] /home/justin/git_repo/Flutter-stress-prediction/flutter-app/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:device_info_plus] /home/justin/git_repo/Flutter-stress-prediction/flutter-app/build/device_info_plus/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.window:window-java:1.0.0-beta04] /home/justin/.gradle/caches/transforms-2/files-2.1/0631d944a530c07b017ad827a32d350b/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:17:1-23:12
 MERGED from [androidx.window:window:1.0.0-beta04] /home/justin/.gradle/caches/transforms-2/files-2.1/5d93ab2f2812dcc02a149cabf48676c0/jetified-window-1.0.0-beta04/AndroidManifest.xml:17:1-33:12
 MERGED from [com.github.polarofficial:polar-ble-sdk:3.2.10] /home/justin/.gradle/caches/transforms-2/files-2.1/247ccd8e4a55ee636c0799f16da4f044/jetified-polar-ble-sdk-3.2.10/AndroidManifest.xml:2:1-9:12
@@ -70,57 +70,57 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/justin/.gradle/c
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/justin/.gradle/caches/transforms-2/files-2.1/02e4b0c137ccaa7174e9553fbe57dff9/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/justin/.gradle/caches/transforms-2/files-2.1/dc4573b677091587b2b63c7e6bdd68cb/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/justin/.gradle/caches/transforms-2/files-2.1/adbddfd2bbda0bef346c1fd6168a0aac/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /home/justin/git_repo/flutter-app/android/app/src/debug/AndroidManifest.xml:1:1-7:12
-INJECTED from /home/justin/git_repo/flutter-app/android/app/src/debug/AndroidManifest.xml:1:1-7:12
-INJECTED from /home/justin/git_repo/flutter-app/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /home/justin/git_repo/Flutter-stress-prediction/flutter-app/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /home/justin/git_repo/Flutter-stress-prediction/flutter-app/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /home/justin/git_repo/Flutter-stress-prediction/flutter-app/android/app/src/debug/AndroidManifest.xml:1:1-7:12
 	package
-		ADDED from /home/justin/git_repo/flutter-app/android/app/src/main/AndroidManifest.xml:2:5-30
-		INJECTED from /home/justin/git_repo/flutter-app/android/app/src/main/AndroidManifest.xml
-		INJECTED from /home/justin/git_repo/flutter-app/android/app/src/debug/AndroidManifest.xml
+		ADDED from /home/justin/git_repo/Flutter-stress-prediction/flutter-app/android/app/src/main/AndroidManifest.xml:2:5-30
+		INJECTED from /home/justin/git_repo/Flutter-stress-prediction/flutter-app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/justin/git_repo/Flutter-stress-prediction/flutter-app/android/app/src/debug/AndroidManifest.xml
 	android:versionName
-		INJECTED from /home/justin/git_repo/flutter-app/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/justin/git_repo/flutter-app/android/app/src/main/AndroidManifest.xml:1:1-37:12
-		INJECTED from /home/justin/git_repo/flutter-app/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /home/justin/git_repo/Flutter-stress-prediction/flutter-app/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/justin/git_repo/Flutter-stress-prediction/flutter-app/android/app/src/main/AndroidManifest.xml:1:1-37:12
+		INJECTED from /home/justin/git_repo/Flutter-stress-prediction/flutter-app/android/app/src/debug/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /home/justin/git_repo/flutter-app/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/justin/git_repo/flutter-app/android/app/src/main/AndroidManifest.xml:1:1-37:12
-		INJECTED from /home/justin/git_repo/flutter-app/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /home/justin/git_repo/Flutter-stress-prediction/flutter-app/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/justin/git_repo/Flutter-stress-prediction/flutter-app/android/app/src/main/AndroidManifest.xml:1:1-37:12
+		INJECTED from /home/justin/git_repo/Flutter-stress-prediction/flutter-app/android/app/src/debug/AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/justin/git_repo/flutter-app/android/app/src/main/AndroidManifest.xml:1:11-69
+		ADDED from /home/justin/git_repo/Flutter-stress-prediction/flutter-app/android/app/src/main/AndroidManifest.xml:1:11-69
 uses-permission#android.permission.BLUETOOTH_SCAN
-ADDED from /home/justin/git_repo/flutter-app/android/app/src/main/AndroidManifest.xml:3:5-120
+ADDED from /home/justin/git_repo/Flutter-stress-prediction/flutter-app/android/app/src/main/AndroidManifest.xml:3:5-120
 	android:usesPermissionFlags
-		ADDED from /home/justin/git_repo/flutter-app/android/app/src/main/AndroidManifest.xml:3:71-117
+		ADDED from /home/justin/git_repo/Flutter-stress-prediction/flutter-app/android/app/src/main/AndroidManifest.xml:3:71-117
 	android:name
-		ADDED from /home/justin/git_repo/flutter-app/android/app/src/main/AndroidManifest.xml:3:22-70
+		ADDED from /home/justin/git_repo/Flutter-stress-prediction/flutter-app/android/app/src/main/AndroidManifest.xml:3:22-70
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from /home/justin/git_repo/flutter-app/android/app/src/main/AndroidManifest.xml:4:5-106
+ADDED from /home/justin/git_repo/Flutter-stress-prediction/flutter-app/android/app/src/main/AndroidManifest.xml:4:5-106
 	android:maxSdkVersion
-		ADDED from /home/justin/git_repo/flutter-app/android/app/src/main/AndroidManifest.xml:4:77-103
+		ADDED from /home/justin/git_repo/Flutter-stress-prediction/flutter-app/android/app/src/main/AndroidManifest.xml:4:77-103
 	android:name
-		ADDED from /home/justin/git_repo/flutter-app/android/app/src/main/AndroidManifest.xml:4:22-76
+		ADDED from /home/justin/git_repo/Flutter-stress-prediction/flutter-app/android/app/src/main/AndroidManifest.xml:4:22-76
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from /home/justin/git_repo/flutter-app/android/app/src/main/AndroidManifest.xml:5:5-108
+ADDED from /home/justin/git_repo/Flutter-stress-prediction/flutter-app/android/app/src/main/AndroidManifest.xml:5:5-108
 	android:maxSdkVersion
-		ADDED from /home/justin/git_repo/flutter-app/android/app/src/main/AndroidManifest.xml:5:79-105
+		ADDED from /home/justin/git_repo/Flutter-stress-prediction/flutter-app/android/app/src/main/AndroidManifest.xml:5:79-105
 	android:name
-		ADDED from /home/justin/git_repo/flutter-app/android/app/src/main/AndroidManifest.xml:5:22-78
+		ADDED from /home/justin/git_repo/Flutter-stress-prediction/flutter-app/android/app/src/main/AndroidManifest.xml:5:22-78
 uses-sdk
-INJECTED from /home/justin/git_repo/flutter-app/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /home/justin/git_repo/flutter-app/android/app/src/main/AndroidManifest.xml
-INJECTED from /home/justin/git_repo/flutter-app/android/app/src/main/AndroidManifest.xml
-MERGED from [:polar] /home/justin/git_repo/flutter-app/build/polar/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-44
-MERGED from [:polar] /home/justin/git_repo/flutter-app/build/polar/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-44
-MERGED from [:firebase_database] /home/justin/git_repo/flutter-app/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:firebase_database] /home/justin/git_repo/flutter-app/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:firebase_core] /home/justin/git_repo/flutter-app/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:firebase_core] /home/justin/git_repo/flutter-app/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:permission_handler_android] /home/justin/git_repo/flutter-app/build/permission_handler_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:permission_handler_android] /home/justin/git_repo/flutter-app/build/permission_handler_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:flutter_plugin_android_lifecycle] /home/justin/git_repo/flutter-app/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:flutter_plugin_android_lifecycle] /home/justin/git_repo/flutter-app/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:device_info_plus] /home/justin/git_repo/flutter-app/build/device_info_plus/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:device_info_plus] /home/justin/git_repo/flutter-app/build/device_info_plus/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+INJECTED from /home/justin/git_repo/Flutter-stress-prediction/flutter-app/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/justin/git_repo/Flutter-stress-prediction/flutter-app/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/justin/git_repo/Flutter-stress-prediction/flutter-app/android/app/src/main/AndroidManifest.xml
+MERGED from [:polar] /home/justin/git_repo/Flutter-stress-prediction/flutter-app/build/polar/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-44
+MERGED from [:polar] /home/justin/git_repo/Flutter-stress-prediction/flutter-app/build/polar/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-44
+MERGED from [:firebase_database] /home/justin/git_repo/Flutter-stress-prediction/flutter-app/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_database] /home/justin/git_repo/Flutter-stress-prediction/flutter-app/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] /home/justin/git_repo/Flutter-stress-prediction/flutter-app/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] /home/justin/git_repo/Flutter-stress-prediction/flutter-app/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:permission_handler_android] /home/justin/git_repo/Flutter-stress-prediction/flutter-app/build/permission_handler_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:permission_handler_android] /home/justin/git_repo/Flutter-stress-prediction/flutter-app/build/permission_handler_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] /home/justin/git_repo/Flutter-stress-prediction/flutter-app/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] /home/justin/git_repo/Flutter-stress-prediction/flutter-app/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:device_info_plus] /home/justin/git_repo/Flutter-stress-prediction/flutter-app/build/device_info_plus/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:device_info_plus] /home/justin/git_repo/Flutter-stress-prediction/flutter-app/build/device_info_plus/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [androidx.window:window-java:1.0.0-beta04] /home/justin/.gradle/caches/transforms-2/files-2.1/0631d944a530c07b017ad827a32d350b/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.window:window-java:1.0.0-beta04] /home/justin/.gradle/caches/transforms-2/files-2.1/0631d944a530c07b017ad827a32d350b/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.window:window:1.0.0-beta04] /home/justin/.gradle/caches/transforms-2/files-2.1/5d93ab2f2812dcc02a149cabf48676c0/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
@@ -179,40 +179,40 @@ MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/justin/.gradle/caches/
 MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/justin/.gradle/caches/transforms-2/files-2.1/dc4573b677091587b2b63c7e6bdd68cb/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/justin/.gradle/caches/transforms-2/files-2.1/adbddfd2bbda0bef346c1fd6168a0aac/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/justin/.gradle/caches/transforms-2/files-2.1/adbddfd2bbda0bef346c1fd6168a0aac/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
-INJECTED from /home/justin/git_repo/flutter-app/android/app/src/debug/AndroidManifest.xml
-INJECTED from /home/justin/git_repo/flutter-app/android/app/src/debug/AndroidManifest.xml
+INJECTED from /home/justin/git_repo/Flutter-stress-prediction/flutter-app/android/app/src/debug/AndroidManifest.xml
+INJECTED from /home/justin/git_repo/Flutter-stress-prediction/flutter-app/android/app/src/debug/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /home/justin/git_repo/flutter-app/android/app/src/main/AndroidManifest.xml
-		INJECTED from /home/justin/git_repo/flutter-app/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /home/justin/git_repo/Flutter-stress-prediction/flutter-app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/justin/git_repo/Flutter-stress-prediction/flutter-app/android/app/src/debug/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/justin/git_repo/flutter-app/android/app/src/main/AndroidManifest.xml
-		INJECTED from /home/justin/git_repo/flutter-app/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /home/justin/git_repo/Flutter-stress-prediction/flutter-app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/justin/git_repo/Flutter-stress-prediction/flutter-app/android/app/src/debug/AndroidManifest.xml
 uses-permission#android.permission.INTERNET
-ADDED from /home/justin/git_repo/flutter-app/android/app/src/debug/AndroidManifest.xml:6:5-66
+ADDED from /home/justin/git_repo/Flutter-stress-prediction/flutter-app/android/app/src/debug/AndroidManifest.xml:6:5-66
 MERGED from [com.google.firebase:firebase-database:20.0.5] /home/justin/.gradle/caches/transforms-2/files-2.1/fea504071b2f0b6e66a42a8d898350f2/jetified-firebase-database-20.0.5/AndroidManifest.xml:26:5-67
 MERGED from [com.google.firebase:firebase-database:20.0.5] /home/justin/.gradle/caches/transforms-2/files-2.1/fea504071b2f0b6e66a42a8d898350f2/jetified-firebase-database-20.0.5/AndroidManifest.xml:26:5-67
 	android:name
-		ADDED from /home/justin/git_repo/flutter-app/android/app/src/debug/AndroidManifest.xml:6:22-64
+		ADDED from /home/justin/git_repo/Flutter-stress-prediction/flutter-app/android/app/src/debug/AndroidManifest.xml:6:22-64
 uses-permission#android.permission.BLUETOOTH_CONNECT
-ADDED from [:polar] /home/justin/git_repo/flutter-app/build/polar/intermediates/library_manifest/debug/AndroidManifest.xml:21:5-76
+ADDED from [:polar] /home/justin/git_repo/Flutter-stress-prediction/flutter-app/build/polar/intermediates/library_manifest/debug/AndroidManifest.xml:21:5-76
 	android:name
-		ADDED from [:polar] /home/justin/git_repo/flutter-app/build/polar/intermediates/library_manifest/debug/AndroidManifest.xml:21:22-73
+		ADDED from [:polar] /home/justin/git_repo/Flutter-stress-prediction/flutter-app/build/polar/intermediates/library_manifest/debug/AndroidManifest.xml:21:22-73
 uses-permission#android.permission.BLUETOOTH
-ADDED from [:polar] /home/justin/git_repo/flutter-app/build/polar/intermediates/library_manifest/debug/AndroidManifest.xml:27:5-29:38
+ADDED from [:polar] /home/justin/git_repo/Flutter-stress-prediction/flutter-app/build/polar/intermediates/library_manifest/debug/AndroidManifest.xml:27:5-29:38
 	android:maxSdkVersion
-		ADDED from [:polar] /home/justin/git_repo/flutter-app/build/polar/intermediates/library_manifest/debug/AndroidManifest.xml:29:9-35
+		ADDED from [:polar] /home/justin/git_repo/Flutter-stress-prediction/flutter-app/build/polar/intermediates/library_manifest/debug/AndroidManifest.xml:29:9-35
 	android:name
-		ADDED from [:polar] /home/justin/git_repo/flutter-app/build/polar/intermediates/library_manifest/debug/AndroidManifest.xml:28:9-52
+		ADDED from [:polar] /home/justin/git_repo/Flutter-stress-prediction/flutter-app/build/polar/intermediates/library_manifest/debug/AndroidManifest.xml:28:9-52
 uses-permission#android.permission.BLUETOOTH_ADMIN
-ADDED from [:polar] /home/justin/git_repo/flutter-app/build/polar/intermediates/library_manifest/debug/AndroidManifest.xml:35:5-37:38
+ADDED from [:polar] /home/justin/git_repo/Flutter-stress-prediction/flutter-app/build/polar/intermediates/library_manifest/debug/AndroidManifest.xml:35:5-37:38
 	android:maxSdkVersion
-		ADDED from [:polar] /home/justin/git_repo/flutter-app/build/polar/intermediates/library_manifest/debug/AndroidManifest.xml:37:9-35
+		ADDED from [:polar] /home/justin/git_repo/Flutter-stress-prediction/flutter-app/build/polar/intermediates/library_manifest/debug/AndroidManifest.xml:37:9-35
 	android:name
-		ADDED from [:polar] /home/justin/git_repo/flutter-app/build/polar/intermediates/library_manifest/debug/AndroidManifest.xml:36:9-58
+		ADDED from [:polar] /home/justin/git_repo/Flutter-stress-prediction/flutter-app/build/polar/intermediates/library_manifest/debug/AndroidManifest.xml:36:9-58
 service#com.google.firebase.components.ComponentDiscoveryService
-ADDED from [:firebase_database] /home/justin/git_repo/flutter-app/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
-MERGED from [:firebase_core] /home/justin/git_repo/flutter-app/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
-MERGED from [:firebase_core] /home/justin/git_repo/flutter-app/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+ADDED from [:firebase_database] /home/justin/git_repo/Flutter-stress-prediction/flutter-app/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] /home/justin/git_repo/Flutter-stress-prediction/flutter-app/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] /home/justin/git_repo/Flutter-stress-prediction/flutter-app/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
 MERGED from [com.google.firebase:firebase-database:20.0.5] /home/justin/.gradle/caches/transforms-2/files-2.1/fea504071b2f0b6e66a42a8d898350f2/jetified-firebase-database-20.0.5/AndroidManifest.xml:29:9-35:19
 MERGED from [com.google.firebase:firebase-database:20.0.5] /home/justin/.gradle/caches/transforms-2/files-2.1/fea504071b2f0b6e66a42a8d898350f2/jetified-firebase-database-20.0.5/AndroidManifest.xml:29:9-35:19
 MERGED from [com.google.firebase:firebase-common:20.1.1] /home/justin/.gradle/caches/transforms-2/files-2.1/a0cb2066e564a8bc4d729213c3b73525/jetified-firebase-common-20.1.1/AndroidManifest.xml:33:9-37:35
@@ -224,19 +224,19 @@ MERGED from [com.google.firebase:firebase-common:20.1.1] /home/justin/.gradle/ca
 	android:directBootAware
 		ADDED from [com.google.firebase:firebase-common:20.1.1] /home/justin/.gradle/caches/transforms-2/files-2.1/a0cb2066e564a8bc4d729213c3b73525/jetified-firebase-common-20.1.1/AndroidManifest.xml:35:13-43
 	android:name
-		ADDED from [:firebase_database] /home/justin/git_repo/flutter-app/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:8:18-89
+		ADDED from [:firebase_database] /home/justin/git_repo/Flutter-stress-prediction/flutter-app/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:8:18-89
 meta-data#com.google.firebase.components:io.flutter.plugins.firebase.database.FlutterFirebaseAppRegistrar
-ADDED from [:firebase_database] /home/justin/git_repo/flutter-app/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+ADDED from [:firebase_database] /home/justin/git_repo/Flutter-stress-prediction/flutter-app/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
 	android:value
-		ADDED from [:firebase_database] /home/justin/git_repo/flutter-app/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+		ADDED from [:firebase_database] /home/justin/git_repo/Flutter-stress-prediction/flutter-app/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
 	android:name
-		ADDED from [:firebase_database] /home/justin/git_repo/flutter-app/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-127
+		ADDED from [:firebase_database] /home/justin/git_repo/Flutter-stress-prediction/flutter-app/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-127
 meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar
-ADDED from [:firebase_core] /home/justin/git_repo/flutter-app/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+ADDED from [:firebase_core] /home/justin/git_repo/Flutter-stress-prediction/flutter-app/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
 	android:value
-		ADDED from [:firebase_core] /home/justin/git_repo/flutter-app/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+		ADDED from [:firebase_core] /home/justin/git_repo/Flutter-stress-prediction/flutter-app/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
 	android:name
-		ADDED from [:firebase_core] /home/justin/git_repo/flutter-app/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
+		ADDED from [:firebase_core] /home/justin/git_repo/Flutter-stress-prediction/flutter-app/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
 uses-library#androidx.window.extensions
 ADDED from [androidx.window:window:1.0.0-beta04] /home/justin/.gradle/caches/transforms-2/files-2.1/5d93ab2f2812dcc02a149cabf48676c0/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
 	android:required

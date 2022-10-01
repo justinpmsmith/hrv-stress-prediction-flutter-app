@@ -12,51 +12,51 @@
 12         to allow setting breakpoints, to provide hot reload, etc.
 13    -->
 14    <uses-permission android:name="android.permission.INTERNET" />
-14-->/home/justin/git_repo/flutter-app/android/app/src/debug/AndroidManifest.xml:6:5-66
-14-->/home/justin/git_repo/flutter-app/android/app/src/debug/AndroidManifest.xml:6:22-64
+14-->/home/justin/git_repo/Flutter-stress-prediction/flutter-app/android/app/src/debug/AndroidManifest.xml:6:5-66
+14-->/home/justin/git_repo/Flutter-stress-prediction/flutter-app/android/app/src/debug/AndroidManifest.xml:6:22-64
 15    <uses-permission
-15-->/home/justin/git_repo/flutter-app/android/app/src/main/AndroidManifest.xml:3:5-120
+15-->/home/justin/git_repo/Flutter-stress-prediction/flutter-app/android/app/src/main/AndroidManifest.xml:3:5-120
 16        android:name="android.permission.BLUETOOTH_SCAN"
-16-->/home/justin/git_repo/flutter-app/android/app/src/main/AndroidManifest.xml:3:22-70
+16-->/home/justin/git_repo/Flutter-stress-prediction/flutter-app/android/app/src/main/AndroidManifest.xml:3:22-70
 17        android:usesPermissionFlags="neverForLocation" />
-17-->/home/justin/git_repo/flutter-app/android/app/src/main/AndroidManifest.xml:3:71-117
+17-->/home/justin/git_repo/Flutter-stress-prediction/flutter-app/android/app/src/main/AndroidManifest.xml:3:71-117
 18    <uses-permission
-18-->/home/justin/git_repo/flutter-app/android/app/src/main/AndroidManifest.xml:4:5-106
+18-->/home/justin/git_repo/Flutter-stress-prediction/flutter-app/android/app/src/main/AndroidManifest.xml:4:5-106
 19        android:name="android.permission.ACCESS_FINE_LOCATION"
-19-->/home/justin/git_repo/flutter-app/android/app/src/main/AndroidManifest.xml:4:22-76
+19-->/home/justin/git_repo/Flutter-stress-prediction/flutter-app/android/app/src/main/AndroidManifest.xml:4:22-76
 20        android:maxSdkVersion="30" />
-20-->/home/justin/git_repo/flutter-app/android/app/src/main/AndroidManifest.xml:4:77-103
+20-->/home/justin/git_repo/Flutter-stress-prediction/flutter-app/android/app/src/main/AndroidManifest.xml:4:77-103
 21    <uses-permission
-21-->/home/justin/git_repo/flutter-app/android/app/src/main/AndroidManifest.xml:5:5-108
+21-->/home/justin/git_repo/Flutter-stress-prediction/flutter-app/android/app/src/main/AndroidManifest.xml:5:5-108
 22        android:name="android.permission.ACCESS_COARSE_LOCATION"
-22-->/home/justin/git_repo/flutter-app/android/app/src/main/AndroidManifest.xml:5:22-78
+22-->/home/justin/git_repo/Flutter-stress-prediction/flutter-app/android/app/src/main/AndroidManifest.xml:5:22-78
 23        android:maxSdkVersion="30" /> <!-- Polar SDK needs Bluetooth scan permission to search for BLE devices. -->
-23-->/home/justin/git_repo/flutter-app/android/app/src/main/AndroidManifest.xml:5:79-105
+23-->/home/justin/git_repo/Flutter-stress-prediction/flutter-app/android/app/src/main/AndroidManifest.xml:5:79-105
 24    <!-- <uses-permission android:name="android.permission.BLUETOOTH_SCAN" android:usesPermissionFlags="neverForLocation" /> -->
 25    <!-- Polar SDK needs Bluetooth connect permission to connect for found BLE devices. -->
 26    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
-26-->[:polar] /home/justin/git_repo/flutter-app/build/polar/intermediates/library_manifest/debug/AndroidManifest.xml:21:5-76
-26-->[:polar] /home/justin/git_repo/flutter-app/build/polar/intermediates/library_manifest/debug/AndroidManifest.xml:21:22-73
+26-->[:polar] /home/justin/git_repo/Flutter-stress-prediction/flutter-app/build/polar/intermediates/library_manifest/debug/AndroidManifest.xml:21:5-76
+26-->[:polar] /home/justin/git_repo/Flutter-stress-prediction/flutter-app/build/polar/intermediates/library_manifest/debug/AndroidManifest.xml:21:22-73
 27    <!--
 28     Allows Polar SDK to connect to paired bluetooth devices. Legacy Bluetooth permission,
 29     which is needed on devices with API 30 (Android Q) or older.
 30    -->
 31    <uses-permission
-31-->[:polar] /home/justin/git_repo/flutter-app/build/polar/intermediates/library_manifest/debug/AndroidManifest.xml:27:5-29:38
+31-->[:polar] /home/justin/git_repo/Flutter-stress-prediction/flutter-app/build/polar/intermediates/library_manifest/debug/AndroidManifest.xml:27:5-29:38
 32        android:name="android.permission.BLUETOOTH"
-32-->[:polar] /home/justin/git_repo/flutter-app/build/polar/intermediates/library_manifest/debug/AndroidManifest.xml:28:9-52
+32-->[:polar] /home/justin/git_repo/Flutter-stress-prediction/flutter-app/build/polar/intermediates/library_manifest/debug/AndroidManifest.xml:28:9-52
 33        android:maxSdkVersion="30" />
-33-->[:polar] /home/justin/git_repo/flutter-app/build/polar/intermediates/library_manifest/debug/AndroidManifest.xml:29:9-35
+33-->[:polar] /home/justin/git_repo/Flutter-stress-prediction/flutter-app/build/polar/intermediates/library_manifest/debug/AndroidManifest.xml:29:9-35
 34    <!--
 35     Allows Polar SDK to discover and pair bluetooth devices. Legacy Bluetooth permission,
 36     which is needed on devices with API 30 (Android Q) or older.
 37    -->
 38    <uses-permission
-38-->[:polar] /home/justin/git_repo/flutter-app/build/polar/intermediates/library_manifest/debug/AndroidManifest.xml:35:5-37:38
+38-->[:polar] /home/justin/git_repo/Flutter-stress-prediction/flutter-app/build/polar/intermediates/library_manifest/debug/AndroidManifest.xml:35:5-37:38
 39        android:name="android.permission.BLUETOOTH_ADMIN"
-39-->[:polar] /home/justin/git_repo/flutter-app/build/polar/intermediates/library_manifest/debug/AndroidManifest.xml:36:9-58
+39-->[:polar] /home/justin/git_repo/Flutter-stress-prediction/flutter-app/build/polar/intermediates/library_manifest/debug/AndroidManifest.xml:36:9-58
 40        android:maxSdkVersion="30" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
-40-->[:polar] /home/justin/git_repo/flutter-app/build/polar/intermediates/library_manifest/debug/AndroidManifest.xml:37:9-35
+40-->[:polar] /home/justin/git_repo/Flutter-stress-prediction/flutter-app/build/polar/intermediates/library_manifest/debug/AndroidManifest.xml:37:9-35
 41    <!-- <uses-sdk android:minSdkVersion="14"/> -->
 42    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 42-->[com.google.firebase:firebase-database:20.0.5] /home/justin/.gradle/caches/transforms-2/files-2.1/fea504071b2f0b6e66a42a8d898350f2/jetified-firebase-database-20.0.5/AndroidManifest.xml:25:5-79
@@ -103,25 +103,25 @@
 81            android:value="2" />
 82
 83        <service
-83-->[:firebase_database] /home/justin/git_repo/flutter-app/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+83-->[:firebase_database] /home/justin/git_repo/Flutter-stress-prediction/flutter-app/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
 84            android:name="com.google.firebase.components.ComponentDiscoveryService"
-84-->[:firebase_database] /home/justin/git_repo/flutter-app/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:8:18-89
+84-->[:firebase_database] /home/justin/git_repo/Flutter-stress-prediction/flutter-app/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:8:18-89
 85            android:directBootAware="true"
 85-->[com.google.firebase:firebase-common:20.1.1] /home/justin/.gradle/caches/transforms-2/files-2.1/a0cb2066e564a8bc4d729213c3b73525/jetified-firebase-common-20.1.1/AndroidManifest.xml:35:13-43
 86            android:exported="false" >
 86-->[com.google.firebase:firebase-database:20.0.5] /home/justin/.gradle/caches/transforms-2/files-2.1/fea504071b2f0b6e66a42a8d898350f2/jetified-firebase-database-20.0.5/AndroidManifest.xml:31:13-37
 87            <meta-data
-87-->[:firebase_database] /home/justin/git_repo/flutter-app/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+87-->[:firebase_database] /home/justin/git_repo/Flutter-stress-prediction/flutter-app/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
 88                android:name="com.google.firebase.components:io.flutter.plugins.firebase.database.FlutterFirebaseAppRegistrar"
-88-->[:firebase_database] /home/justin/git_repo/flutter-app/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-127
+88-->[:firebase_database] /home/justin/git_repo/Flutter-stress-prediction/flutter-app/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-127
 89                android:value="com.google.firebase.components.ComponentRegistrar" />
-89-->[:firebase_database] /home/justin/git_repo/flutter-app/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+89-->[:firebase_database] /home/justin/git_repo/Flutter-stress-prediction/flutter-app/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
 90            <meta-data
-90-->[:firebase_core] /home/justin/git_repo/flutter-app/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+90-->[:firebase_core] /home/justin/git_repo/Flutter-stress-prediction/flutter-app/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
 91                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
-91-->[:firebase_core] /home/justin/git_repo/flutter-app/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
+91-->[:firebase_core] /home/justin/git_repo/Flutter-stress-prediction/flutter-app/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
 92                android:value="com.google.firebase.components.ComponentRegistrar" />
-92-->[:firebase_core] /home/justin/git_repo/flutter-app/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+92-->[:firebase_core] /home/justin/git_repo/Flutter-stress-prediction/flutter-app/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
 93            <meta-data
 93-->[com.google.firebase:firebase-database:20.0.5] /home/justin/.gradle/caches/transforms-2/files-2.1/fea504071b2f0b6e66a42a8d898350f2/jetified-firebase-database-20.0.5/AndroidManifest.xml:32:13-34:85
 94                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"

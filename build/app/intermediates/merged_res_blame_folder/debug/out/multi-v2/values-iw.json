@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/justin/git_repo/flutter-app/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-iw/values-iw.xml",
+            "outputFile": "/home/justin/git_repo/Flutter-stress-prediction/flutter-app/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-iw/values-iw.xml",
             "map": [
                 {
                     "source": "/home/justin/.gradle/caches/transforms-2/files-2.1/c3cfa0d6be01160dbd24e56810c63e6d/core-1.7.0/res/values-iw/values-iw.xml",

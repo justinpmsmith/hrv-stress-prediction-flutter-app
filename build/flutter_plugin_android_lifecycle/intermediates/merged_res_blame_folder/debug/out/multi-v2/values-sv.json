@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/justin/git_repo/flutter-app/build/flutter_plugin_android_lifecycle/intermediates/res/merged/debug/values-sv/values-sv.xml",
+            "outputFile": "/home/justin/git_repo/Flutter-stress-prediction/flutter-app/build/flutter_plugin_android_lifecycle/intermediates/res/merged/debug/values-sv/values-sv.xml",
             "map": [
                 {
                     "source": "/home/justin/.gradle/caches/transforms-2/files-2.1/f910e53d48c9bb13b167634611201768/core-1.6.0/res/values-sv/values-sv.xml",
@@ -16,7 +16,7 @@
             ]
         },
         {
-            "outputFile": "/home/justin/git_repo/flutter-app/build/flutter_plugin_android_lifecycle/intermediates/incremental/mergeDebugResources/merged.dir/values-sv/values-sv.xml",
+            "outputFile": "/home/justin/git_repo/Flutter-stress-prediction/flutter-app/build/flutter_plugin_android_lifecycle/intermediates/incremental/mergeDebugResources/merged.dir/values-sv/values-sv.xml",
             "map": [
                 {
                     "source": "/home/justin/.gradle/caches/transforms-2/files-2.1/f910e53d48c9bb13b167634611201768/core-1.6.0/res/values-sv/values-sv.xml",

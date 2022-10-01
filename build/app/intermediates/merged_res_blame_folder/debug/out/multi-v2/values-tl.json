@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/justin/git_repo/flutter-app/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-tl/values-tl.xml",
+            "outputFile": "/home/justin/git_repo/Flutter-stress-prediction/flutter-app/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-tl/values-tl.xml",
             "map": [
                 {
                     "source": "/home/justin/.gradle/caches/transforms-2/files-2.1/9563e7b25438457b4f28d4b3a4eae556/jetified-play-services-basement-18.0.0/res/values-tl/values.xml",

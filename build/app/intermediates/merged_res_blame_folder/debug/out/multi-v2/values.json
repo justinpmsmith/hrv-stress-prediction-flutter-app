@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/justin/git_repo/flutter-app/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/home/justin/git_repo/Flutter-stress-prediction/flutter-app/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
                 {
                     "source": "/home/justin/.gradle/caches/transforms-2/files-2.1/5d93ab2f2812dcc02a149cabf48676c0/jetified-window-1.0.0-beta04/res/values/values.xml",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/home/justin/git_repo/flutter-app/build/app/generated/res/google-services/debug/values/values.xml",
+                    "source": "/home/justin/git_repo/Flutter-stress-prediction/flutter-app/build/app/generated/res/google-services/debug/values/values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8",
                         "startColumns": "4,4,4,4,4,4,4",
@@ -54,6 +54,25 @@
                         "startOffsets": "6042",
                         "endColumns": "42",
                         "endOffsets": "6080"
+                    }
+                },
+                {
+                    "source": "/home/justin/git_repo/Flutter-stress-prediction/flutter-app/android/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "3,14",
+                        "startColumns": "4,4",
+                        "startOffsets": "173,807",
+                        "endLines": "7,16",
+                        "endColumns": "12,12",
+                        "endOffsets": "465,971"
+                    },
+                    "to": {
+                        "startLines": "128,133",
+                        "startColumns": "4,4",
+                        "startOffsets": "9377,9674",
+                        "endLines": "132,135",
+                        "endColumns": "12,12",
+                        "endOffsets": "9669,9838"
                     }
                 },
                 {
@@ -109,25 +128,6 @@
                         "endLines": "13,14,15,16,17,18,19,20,102,103,104,105,106,107,108,109,111,112,113,114,115,116,117,118,119,314,333",
                         "endColumns": "89,79,89,89,79,80,79,79,104,180,124,106,179,122,115,102,187,104,180,124,174,147,62,61,78,20,20",
                         "endOffsets": "746,826,916,1006,1086,1167,1247,1327,6323,6504,6629,6736,6916,7039,7155,7258,7613,7718,7899,8024,8199,8347,8410,8472,8551,20063,20480"
-                    }
-                },
-                {
-                    "source": "/home/justin/git_repo/flutter-app/android/app/src/main/res/values/styles.xml",
-                    "from": {
-                        "startLines": "3,14",
-                        "startColumns": "4,4",
-                        "startOffsets": "173,807",
-                        "endLines": "7,16",
-                        "endColumns": "12,12",
-                        "endOffsets": "465,971"
-                    },
-                    "to": {
-                        "startLines": "128,133",
-                        "startColumns": "4,4",
-                        "startOffsets": "9377,9674",
-                        "endLines": "132,135",
-                        "endColumns": "12,12",
-                        "endOffsets": "9669,9838"
                     }
                 }
             ]
